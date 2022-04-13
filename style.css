@@ -1,13 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@500&family=Space+Mono:wght@700&display=swap');
+
 body {
     background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    text-align: center;
 }
 
 .card {
     background-color: hsl(217, 19%, 24%);
-    width: 330px;
-    height: 200px;
+    width: 430px;
+    height: 300px;
     border-radius: 6px;
     position: absolute;
     top: 35%;
     left: 35%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+.footer:before, .footer:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto 10px auto 10px
+}
+
+.footer:before {
+    margin-right: 10px
+}
+
+.footer:after {
+    margin-left: 10px
+}
+
+.number {
+    color: hsl(150, 100%, 66%);
+    margin-bottom: -12px;
+    letter-spacing: 1.5px;
+}
+
+button {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 2px;
+    margin-left: 10px
+}
+
+.quote {
+    font-size: 28px;
+    color: white;
+    word-spacing: 1px;
 }
